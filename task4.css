@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Libre Baskerville", serif;
+}
+main{
+   
+    display: flex;
+    justify-content: center;
+}
+section{
+   
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    background-color: bisque;
+    width: 25%;
+    overflow: hidden;
+
+}
+img{
+    width: 100%;
+    height: 70%;
+    border: 2px solid brown;
+    transition: 2s;
+    
+}
+h3{
+    color: brown;
+    text-align: center;
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    color: black;
+    background-color: chocolate;
+}
+#a{
+    width: 100%;
+
+}
+#b{
+    width: 100%;
+
+}
+#c{
+    width: 100%;
+    opacity: 1.0;
+}
+#d{
+    width: 100%;
+    
+
+}
+#p:hover{
+    transform: scale(1.2);
+}
+#q:hover{
+    filter: blur(20px);
+}
+#r:hover {
+    opacity: 0;
+}
+#s:hover {
+    rotate: 180deg;
+}
